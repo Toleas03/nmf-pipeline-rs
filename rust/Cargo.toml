@@ -1,0 +1,22 @@
+[package]
+name = "preproccess"
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+walkdir = "2.3"
+csv = "1.2"
+serde = { version = "1.0.217", features = ["derive"] }
+regex = "1.5"
+stemmer = "0.3.2"
+serde_json = "1.0.139"
+ndarray = "0.15"
+ndarray-rand = "0.14"
+rand_distr = "0.4"
+anyhow = "1.0"
+rayon = "1.6"
+ndarray-linalg = "0.17.0"
+time = "0.3"
+sysinfo = "0.33.1"
+rss = "2.0.12"
+winapi = { version = "0.3.9", features = ["processthreadsapi", "winnt"] }
